@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cascadingText</title>
+    <script src="vue.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container bg-dark">
+    <div id="vm" v-bind="printFile()">
+        <div class="container-text shadow-lg p-3 mb-5 rounded switchOn" :style="{color: textColor, backgroundImage: 'url('+imgDir+')'}" v-bind:class="{switchOn}">
+            <p class="text-monospace">{{ word }}</p>
+            <p class="text-monospace">{{ data2 }}</p>
+            <input spellcheck="false" id="input" v-model="cmd" @keydown="runCommand" type="text" class="text-input text-monospace" :style="{ color: textColor, display: displayCmdLine}">
+            </input>
+        </div>
+        <button v-if="switchOn" class="btn btn-outline-success d-flex mx-auto" @mousedown.once="powerUp">ON</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

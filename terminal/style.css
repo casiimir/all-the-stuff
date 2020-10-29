@@ -1,0 +1,39 @@
+#input {
+    color: aquamarine;
+    text-shadow: 0 0 0.15em LawnGreen !important;
+}
+
+#vm {
+    height: 100vh;
+}
+
+.container {
+    padding: 5%;
+}
+
+.container-text {
+    height: 68%;
+    text-align: justify;
+    background-color: #1b1b1b;
+    border-radius: 10px !important;
+    color: aquamarine;
+    text-shadow: 0 0 0.15em LawnGreen !important;
+}
+
+.text-input {
+    background-color: transparent;
+    border: 0;
+    width: 100%;
+    padding-bottom: 50%;
+}
+
+.text-input:focus {
+    outline: none;
+}
+
+.switchOn {
+    background-size: 45%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
