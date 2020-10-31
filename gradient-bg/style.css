@@ -1,0 +1,22 @@
+.container {
+    background-image: linear-gradient(to right, blueviolet, indigo);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    
+  }
+  
+  h1 {
+    margin: 30px;
+    font-family: 'Itim', cursive;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 2.5em;
+    color: rgba(255,255,255,1)
+  }
+  
+  h4 {
+    color: white;
+    font-family: 'Itim', cursive;
+    color: rgba(0,0,0,0.6)
+  }
