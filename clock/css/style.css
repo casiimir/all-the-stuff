@@ -54,6 +54,7 @@ span {
 .sec, .min, .hour {
   background-color: black;
   position: relative;
+  height: 3px;
   top: 100px;
   border-top-left-radius: 100%;
   border-bottom-left-radius: 100%;
@@ -69,16 +70,13 @@ span {
 }
 
 .min {
-  height: 3px;
   width: 90px;
   right: 41px;  
   background-color: rgba(34, 10, 56, 0.658);
 }
 
 .hour {
-  height: 4px;
-  width: 80px;
+  width: 70px;
   right: 100px;
-
   background-color: rgba(34, 10, 56, 0.432);
 }
