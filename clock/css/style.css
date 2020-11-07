@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(to right, rgb(174, 87, 255), rgb(39, 0, 44));
+  }
+  
+  .clock {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+  }
+  
+  .main {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, .2);
+  }
+
+  .middle-bottom {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: white;
+    position: relative;
+    left: 104px; 
+    top: 2px;
+    z-index: 1; 
+  }
+  
+  .sec, .min, .hour {
+    background-color: black;
+    position: relative;
+    top: 100px;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    transform-origin: 100%;
+  }
+  
+  .sec {
+    width: 100px;    
+    height: 2px;
+    left: 25px;  
+    background-color: #ffffff;
+    z-index: 0;
+  }
+  
+  .min {
+    height: 3px;
+    width: 90px;
+    right: 41px;  
+    background-color: #6a2c7060;
+  }
+  
+  .hour {
+    height: 4px;
+    width: 80px;
+    right: 100px;
+
+    background-color: #6a2c70b7;
+  }
