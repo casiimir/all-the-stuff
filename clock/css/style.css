@@ -65,18 +65,19 @@ span {
   width: 100px;    
   height: 2px;
   left: 25px;  
-  background-color: #ffffff;
+  background-color: #ffffff9d;
   z-index: 0;
 }
 
 .min {
   width: 90px;
   right: 41px;  
-  background-color: rgba(34, 10, 56, 0.658);
+  background-color: rgba(34, 10, 56, 0.301);
 }
 
 .hour {
-  width: 70px;
+  height: 3px;
+  width: 80px;
   right: 100px;
-  background-color: rgba(34, 10, 56, 0.432);
+  background-color: rgba(34, 10, 56, 0.66);
 }
