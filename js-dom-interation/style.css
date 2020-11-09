@@ -1,0 +1,21 @@
+:root {
+    --bg-color: #dbdfe4;
+    --blur-level: blur(100px);
+}
+
+body {
+    text-align: center;
+    background-color: var(--bg-color);
+}
+
+h3 {
+    margin-top: 100px;
+    color: #0075ff;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {    
+    filter: var(--blur-level);
+    width: 300px;
+}
