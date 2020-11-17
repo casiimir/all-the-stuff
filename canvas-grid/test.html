@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="grid.js"></script>
+    </head>
+<body style="border: 0; margin: 0">
+
+<canvas onmousemove="mouseEvent(event)" id="myCanvas" width="400" height="400" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+
+setInterval (() => {
+ctx.clearRect(0,0,c.width,c.height);
+grid(ctx, 50);
+// Check if collide out the canvas width or height
+ctx.fillStyle = 'black';
+if (coordinate.x > c.width-75) {
+    ctx.fillText(("  X: " + coordinate.x + " Y: " + coordinate.y), coordinate.x-90, coordinate.y);
+}
+else {
+    ctx.fillText(("  X: " + coordinate.x + " Y: " + coordinate.y), coordinate.x, coordinate.y);
+}
+
+ctx.fillStyle = 'black';
+ctx.fillRect(50,100, 30,30);
+
+}, 1000/60);
+</script>
+</body>
+</html>
