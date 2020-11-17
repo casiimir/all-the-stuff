@@ -1,4 +1,5 @@
 # Snippets, stuff and something else.
+They are experiments for envisaging the different ways of coding the web.
 ## Html, Css, Javascript, Vue ...
 
 - Terminal in Vue.js - https://casiimir.github.io/all-the-stuff/terminal/index.html <br>
