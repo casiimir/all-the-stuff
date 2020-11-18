@@ -8,3 +8,4 @@ They are experiments for envisaging the different ways of coding the web.
 - Clock in pure Javascript - https://casiimir.github.io/all-the-stuff/clock/index.html <br>
 - DOM manipulation in JS - https://casiimir.github.io/all-the-stuff/js-dom-interaction/index.html <br>
 - Grid in Canvas (Plain Javascript) - https://casiimir.github.io/all-the-stuff/canvas-grid/index.html <br>
+- A Magic Book with an incredible power (React, clarifai API) - https://casiimir.github.io/all-the-stuff/magic-book/web-page/index.html
