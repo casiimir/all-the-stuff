@@ -8,7 +8,6 @@
     <script>
     // Draw => 0 | Win => 1 | Lose => -1
     function playRound(playerSelection, computerSelection) {
-      console.log(`Player: ${playerSelection} - Computer: ${computerSelection}.`);
       if (playerSelection === computerSelection) return 0;
       if (playerSelection === 'r' && computerSelection === 's' || 
           playerSelection === 'p' && computerSelection === 'r' ||
@@ -47,8 +46,6 @@
           default:
             alert('We have a Draw!');
         }
-        console.log('player: ', playerPoints);
-        console.log('computer: ', computerPoints);
       }
       alert (`Computer: ${computerPoints} \n Player: ${playerPoints}`);
     }
