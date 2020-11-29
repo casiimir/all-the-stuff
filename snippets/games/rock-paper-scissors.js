@@ -1,7 +1,7 @@
 // Rock, Paper, Scissors.
 // Please open it in Chrome Console, 'prompt' func. it doesn't work in Node.js.
 
-// Pair => -1 | Win => 1 | Lose => 0
+// Draw => -1 | Win => 1 | Lose => 0
 function playRound(playerSelection, computerSelection) {
   console.log(`Player: ${playerSelection} - Computer: ${computerSelection}.`);
   if (playerSelection === computerSelection) return -1;
